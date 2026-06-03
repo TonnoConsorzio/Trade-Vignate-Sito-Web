@@ -13,16 +13,17 @@ jobs:
   sync:
     name: Sincronizza ed Aggiorna Catalogo
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout del codice
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Configurazione Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-type: 'module'
-          node-version: '18'
+          node-version: '20'
 
       - name: Esecuzione Scraper (fetch_cars.js)
         run: node fetch_cars.js

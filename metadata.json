@@ -1,0 +1,6 @@
+{
+  "name": "Trade Vignate",
+  "description": "Sito web e catalogo ufficiale per Trade Vignate, specialista in compravendita di auto usate certificate a Vignate (MI).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

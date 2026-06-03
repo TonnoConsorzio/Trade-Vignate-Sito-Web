@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* ==========================================
+   CUSTOM MICRO-INTERACTION KEYFRAMES (CSS)
+   ========================================== */
+
+/* Animazione di scorrimento della vettura su X */
+@keyframes carDrive {
+  0% {
+    transform: translateX(-40px) scaleX(1);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.35;
+  }
+  85% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: translateX(120px) scaleX(1);
+    opacity: 0;
+  }
+}
+
+/* Animazione di sussulto o eccitazione del motore (tipo pistoni o vibrazione) */
+@keyframes enginePulse {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+    filter: drop-shadow(0 0 0px rgba(249, 115, 22, 0));
+  }
+  20% {
+    transform: rotate(-12deg) scale(1.15);
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, 0.4));
+  }
+  40% {
+    transform: rotate(12deg) scale(1.15);
+    filter: drop-shadow(0 0 6px rgba(249, 115, 22, 0.5));
+  }
+  60% {
+    transform: rotate(-8deg) scale(1.08);
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, 0.3));
+  }
+  80% {
+    transform: rotate(8deg) scale(1.08);
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, 0.2));
+  }
+}
+
+/* ==========================================
+   UTILITY CLASSES PER LE MICRO-INTERAZIONI
+   ========================================== */
+
+/* Quando l'utente fa hover sulla zona chilometri (group-hover/km-hover) */
+.animate-car-glide {
+  animation: carDrive 1.4s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+
+/* Quando l'utente fa hover sulla zona motore */
+.animate-engine-vibe {
+  animation: enginePulse 0.65s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+/* ==========================================
+   GLASSMORPHISM & ACCENTI PREMIUM
+   ========================================== */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.targa-badge {
+  background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%);
+  border: 1px solid #3b82f6;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

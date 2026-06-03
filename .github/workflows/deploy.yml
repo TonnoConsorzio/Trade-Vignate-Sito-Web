@@ -1,0 +1,58 @@
+name: Deploy su GitHub Pages 🚀
+
+on:
+  push:
+    branches: [ "master", "main" ]
+  workflow_run:
+    workflows: ["Sincronizzazione Stock AutoScout24"]
+    types: [completed]
+  workflow_dispatch: # Permette anche il deploy manuale
+
+# Permessi speciali richiesti per pubblicare direttamente tramite GitHub Actions su Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Permette solo una compilazione/deploy attivo alla volta per evitare conflitti o spreco di risorse
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Compila ed Esegui Deploy
+    runs-on: ubuntu-latest
+    # Se attivato da workflow_run, esegui solo se il workflow di sincronizzazione ha avuto successo
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v4
+
+      - name: Configurazione Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Installazione Dipendenze
+        run: npm install
+
+      - name: Compilazione del Sito (Vite Production Build)
+        run: npm run build
+
+      - name: Abilita Configurazione GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Carica l'Artefatto Compilato (dist)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+      - name: Deploy su GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -128,38 +128,6 @@
     }
   },
   {
-    "id": "87884a1d-043e-499b-b937-9a64a6225063",
-    "nome": "Fiat Stilo 5p 1.6 16v Active",
-    "prezzo": 1500,
-    "anno": "05/2003",
-    "chilometri": 157000,
-    "targa": null,
-    "alimentazione": "Benzina",
-    "motore": "103 CV",
-    "foto": [
-      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_edaafc4a-efac-4476-87da-5014c0fb9fae.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_f56a820a-f920-47f8-ac73-a5320651a1a5.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_3a805780-e35a-4fe4-bceb-53efa5877b45.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_6bf1471a-c37f-4013-8795-3aef7ef43b60.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_fd8fe4a4-76af-4900-bedd-168aeda0ed6e.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_2f0e0b6c-27db-480f-ac19-1fd42c10571a.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_9fca551a-6987-451d-b75e-2884ef355636.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_2781a010-2d48-4cc1-a80d-3b341bf1aad2.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_cd215dc3-0169-4835-8d4e-fef421d090ac.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_def8575b-8878-4e52-a072-8942d9c58cf6.jpg/250x188.webp"
-    ],
-    "link_autoscout": "https://www.autoscout24.it/annunci/fiat-stilo-stilo-5p-1-6-16v-active-benzina-argento-87884a1d-043e-499b-b937-9a64a6225063",
-    "specifiche_extra": {
-      "cambio": "Manuale",
-      "colore_esterno": "Berlina",
-      "interni": "Tessuto",
-      "porte": "5",
-      "classe_emissioni": "Euro 6",
-      "proprietari": "1",
-      "trazione": "Anteriore"
-    }
-  },
-  {
     "id": "7a2ee7e2-dcac-4794-b28e-bb213dbb3c9c",
     "nome": "Alfa Romeo 159 Sportwagon SW 1.9 jtdm 8v Progression 120cv",
     "prezzo": 2800,
@@ -192,6 +160,38 @@
     }
   },
   {
+    "id": "87884a1d-043e-499b-b937-9a64a6225063",
+    "nome": "Fiat Stilo 5p 1.6 16v Active",
+    "prezzo": 1500,
+    "anno": "05/2003",
+    "chilometri": 157000,
+    "targa": null,
+    "alimentazione": "Benzina",
+    "motore": "103 CV",
+    "foto": [
+      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_edaafc4a-efac-4476-87da-5014c0fb9fae.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_f56a820a-f920-47f8-ac73-a5320651a1a5.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_3a805780-e35a-4fe4-bceb-53efa5877b45.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_6bf1471a-c37f-4013-8795-3aef7ef43b60.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_fd8fe4a4-76af-4900-bedd-168aeda0ed6e.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_2f0e0b6c-27db-480f-ac19-1fd42c10571a.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_9fca551a-6987-451d-b75e-2884ef355636.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_2781a010-2d48-4cc1-a80d-3b341bf1aad2.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_cd215dc3-0169-4835-8d4e-fef421d090ac.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/87884a1d-043e-499b-b937-9a64a6225063_def8575b-8878-4e52-a072-8942d9c58cf6.jpg/250x188.webp"
+    ],
+    "link_autoscout": "https://www.autoscout24.it/annunci/fiat-stilo-stilo-5p-1-6-16v-active-benzina-argento-87884a1d-043e-499b-b937-9a64a6225063",
+    "specifiche_extra": {
+      "cambio": "Manuale",
+      "colore_esterno": "Berlina",
+      "interni": "Tessuto",
+      "porte": "5",
+      "classe_emissioni": "Euro 6",
+      "proprietari": "1",
+      "trazione": "Anteriore"
+    }
+  },
+  {
     "id": "5067474c-99fd-4bc3-a792-be2cec75ed8b",
     "nome": "Audi A1 5P. Sportback 1.4 tdi S-Line",
     "prezzo": 11200,
@@ -220,38 +220,6 @@
       "porte": "5",
       "classe_emissioni": "Euro 6",
       "proprietari": "1 proprietario",
-      "trazione": "Anteriore"
-    }
-  },
-  {
-    "id": "5a83fd2b-42b6-414a-b5e9-4851b77e6316",
-    "nome": "Toyota RAV4 5p 2.0 d-4d 16v Sol 4x4",
-    "prezzo": 3500,
-    "anno": "09/2004",
-    "chilometri": 273000,
-    "targa": null,
-    "alimentazione": "Diesel",
-    "motore": "116 CV",
-    "foto": [
-      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_9972c78f-6116-4a16-9027-1820221ef1f5.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_d6a4cc01-dea7-4087-a349-0caf418c2e57.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_cc98d853-5323-4842-8bad-b48e9a15781a.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_7e39c3a3-880c-4f1a-8105-9a5c5f1ef714.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_57aaf70b-3be6-4dfe-8829-e69f2f2176cb.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_fee197f7-fe3a-4c7d-af4e-c17dc01234bd.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_c9086233-3cd8-4c90-bea3-139f0a325af7.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_1a9cfe3b-4187-48bb-80b2-4c5d9e684db8.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_f6664672-13ef-4071-9d1a-21a981be0845.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_5aecb156-f19c-4c51-b3ac-25a7194f4c2e.jpg/250x188.webp"
-    ],
-    "link_autoscout": "https://www.autoscout24.it/annunci/toyota-rav-4-rav4-5p-2-0-d-4d-16v-sol-4x4-diesel-argento-5a83fd2b-42b6-414a-b5e9-4851b77e6316",
-    "specifiche_extra": {
-      "cambio": "Manuale",
-      "colore_esterno": "SUV/Fuoristrada/Pick-up",
-      "interni": "Tessuto",
-      "porte": "5",
-      "classe_emissioni": "Euro 6",
-      "proprietari": "2 proprietari",
       "trazione": "Anteriore"
     }
   },

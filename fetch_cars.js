@@ -182,8 +182,13 @@ async function run() {
   } catch (error) {
     console.error('\x1b[31m%s\x1b[0m', 'CRITICAL ERROR DURANTE IL FETCH DEL CATALOGO:');
     console.error('\x1b[31m%s\x1b[0m', error.message);
-    console.log('--- PROTEZIONE CACHE ATTIVA: Il catalogo preesistente è stato preservato. ---');
-    process.exit(1);
+    if (fs.existsSync(CATALOG_PATH)) {
+      console.log('--- PROTEZIONE CACHE ATTIVA: Il catalogo preesistente è stato preservato. Costruzione consentita. ---');
+      process.exit(0);
+    } else {
+      console.error('\x1b[31m%s\x1b[0m', 'ERRORE SCHEMA: Nessun catalogo preesistente trovato. Il build fallirà.');
+      process.exit(1);
+    }
   }
 }
 

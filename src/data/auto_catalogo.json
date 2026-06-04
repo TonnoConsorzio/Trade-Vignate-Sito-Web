@@ -1,37 +1,5 @@
 [
   {
-    "id": "cf118d49-4da2-4bdd-972d-0ba0b830fd75",
-    "nome": "Mercedes-Benz Classe ML 430 V8 4x4 GPL guida a destra",
-    "prezzo": 4000,
-    "anno": "06/2000",
-    "chilometri": 169000,
-    "targa": null,
-    "alimentazione": "GPL",
-    "motore": "272 CV",
-    "foto": [
-      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_870de155-c883-4652-bca0-bb087c7e94a4.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_e5684663-3766-46af-8117-89b4a126e7a7.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_20277d05-3c25-4080-9ffe-9f6fd9ba2b34.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_2f1225fe-4b5e-4159-af00-63fb86db80c6.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_9c0aa6fe-bfad-4b87-a833-b98bfa7fe58b.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_92017f76-90a0-4ac6-a0e7-ddd3c0d134c6.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_d5d5d717-214d-49d3-b0c5-d5734183dc4b.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_1d72c2c0-dcdd-486b-9eef-f8f5f6a2d9f6.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_09d9d0a1-aec1-4287-9c93-3e17de01a74d.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_77e5bcb3-6cb0-4196-9d9f-b49a8d40a7b6.jpg/250x188.webp"
-    ],
-    "link_autoscout": "https://www.autoscout24.it/annunci/mercedes-benz-ml-430-classe-ml-430-v8-4x4-gpl-guida-a-destra-gpl-argento-cf118d49-4da2-4bdd-972d-0ba0b830fd75",
-    "specifiche_extra": {
-      "cambio": "Automatico",
-      "colore_esterno": "SUV/Fuoristrada/Pick-up",
-      "interni": "Tessuto",
-      "porte": "5",
-      "classe_emissioni": "Euro 6",
-      "proprietari": "2 proprietari",
-      "trazione": "Anteriore"
-    }
-  },
-  {
     "id": "c23ba46a-6db9-46e3-a319-f3d58d6c6f10",
     "nome": "Dacia Sandero 1.2 73cv E6",
     "prezzo": 5000,
@@ -64,34 +32,34 @@
     }
   },
   {
-    "id": "092f70c3-265a-4e84-ace8-c0497c5711fc",
-    "nome": "Alfa Romeo Giulietta 1.3",
-    "prezzo": 4900,
-    "anno": "05/1980",
-    "chilometri": 75000,
+    "id": "cf118d49-4da2-4bdd-972d-0ba0b830fd75",
+    "nome": "Mercedes-Benz Classe ML 430 V8 4x4 GPL guida a destra",
+    "prezzo": 4000,
+    "anno": "06/2000",
+    "chilometri": 169000,
     "targa": null,
-    "alimentazione": "Benzina",
-    "motore": "94 CV",
+    "alimentazione": "GPL",
+    "motore": "272 CV",
     "foto": [
-      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_97139ada-7407-47db-8254-f76613ed582c.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_d8dd18c4-ce82-4f3a-b911-da08468bd60d.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_b357794e-1374-403d-90ae-5534f85c7508.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_d7495b73-e5ec-4f69-b4b0-5696aa6f529d.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_f098cc0e-e075-4cf5-82ad-c5720189360a.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_82cff9c2-745d-4a86-a3ed-153dcc8b6eb3.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_ac635121-71dd-4f32-aecc-e8e6fba7fdbc.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_d2cbc01f-c0ec-45bb-80e0-d5c5ee854963.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_223e2c7f-8ed1-461d-88ca-4c64794c92ef.jpg/250x188.webp",
-      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_754e3089-c3c3-4b59-9aa2-7acb6a710870.jpg/250x188.webp"
+      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_870de155-c883-4652-bca0-bb087c7e94a4.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_e5684663-3766-46af-8117-89b4a126e7a7.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_20277d05-3c25-4080-9ffe-9f6fd9ba2b34.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_2f1225fe-4b5e-4159-af00-63fb86db80c6.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_9c0aa6fe-bfad-4b87-a833-b98bfa7fe58b.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_92017f76-90a0-4ac6-a0e7-ddd3c0d134c6.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_d5d5d717-214d-49d3-b0c5-d5734183dc4b.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_1d72c2c0-dcdd-486b-9eef-f8f5f6a2d9f6.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_09d9d0a1-aec1-4287-9c93-3e17de01a74d.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/cf118d49-4da2-4bdd-972d-0ba0b830fd75_77e5bcb3-6cb0-4196-9d9f-b49a8d40a7b6.jpg/250x188.webp"
     ],
-    "link_autoscout": "https://www.autoscout24.it/annunci/alfa-romeo-giulietta-giulietta-1-3-benzina-bianco-092f70c3-265a-4e84-ace8-c0497c5711fc",
+    "link_autoscout": "https://www.autoscout24.it/annunci/mercedes-benz-ml-430-classe-ml-430-v8-4x4-gpl-guida-a-destra-gpl-argento-cf118d49-4da2-4bdd-972d-0ba0b830fd75",
     "specifiche_extra": {
-      "cambio": "Manuale",
-      "colore_esterno": "Berlina",
+      "cambio": "Automatico",
+      "colore_esterno": "SUV/Fuoristrada/Pick-up",
       "interni": "Tessuto",
       "porte": "5",
       "classe_emissioni": "Euro 6",
-      "proprietari": "1",
+      "proprietari": "2 proprietari",
       "trazione": "Anteriore"
     }
   },
@@ -124,6 +92,38 @@
       "porte": "5",
       "classe_emissioni": "Euro 6",
       "proprietari": "2 proprietari",
+      "trazione": "Anteriore"
+    }
+  },
+  {
+    "id": "092f70c3-265a-4e84-ace8-c0497c5711fc",
+    "nome": "Alfa Romeo Giulietta 1.3",
+    "prezzo": 4900,
+    "anno": "05/1980",
+    "chilometri": 75000,
+    "targa": null,
+    "alimentazione": "Benzina",
+    "motore": "94 CV",
+    "foto": [
+      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_97139ada-7407-47db-8254-f76613ed582c.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_d8dd18c4-ce82-4f3a-b911-da08468bd60d.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_b357794e-1374-403d-90ae-5534f85c7508.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_d7495b73-e5ec-4f69-b4b0-5696aa6f529d.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_f098cc0e-e075-4cf5-82ad-c5720189360a.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_82cff9c2-745d-4a86-a3ed-153dcc8b6eb3.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_ac635121-71dd-4f32-aecc-e8e6fba7fdbc.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_d2cbc01f-c0ec-45bb-80e0-d5c5ee854963.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_223e2c7f-8ed1-461d-88ca-4c64794c92ef.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/092f70c3-265a-4e84-ace8-c0497c5711fc_754e3089-c3c3-4b59-9aa2-7acb6a710870.jpg/250x188.webp"
+    ],
+    "link_autoscout": "https://www.autoscout24.it/annunci/alfa-romeo-giulietta-giulietta-1-3-benzina-bianco-092f70c3-265a-4e84-ace8-c0497c5711fc",
+    "specifiche_extra": {
+      "cambio": "Manuale",
+      "colore_esterno": "Berlina",
+      "interni": "Tessuto",
+      "porte": "5",
+      "classe_emissioni": "Euro 6",
+      "proprietari": "1",
       "trazione": "Anteriore"
     }
   },
@@ -252,6 +252,38 @@
       "porte": "5",
       "classe_emissioni": "Euro 6",
       "proprietari": "1",
+      "trazione": "Anteriore"
+    }
+  },
+  {
+    "id": "5a83fd2b-42b6-414a-b5e9-4851b77e6316",
+    "nome": "Toyota RAV4 5p 2.0 d-4d 16v Sol 4x4",
+    "prezzo": 3500,
+    "anno": "09/2004",
+    "chilometri": 273000,
+    "targa": null,
+    "alimentazione": "Diesel",
+    "motore": "116 CV",
+    "foto": [
+      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_9972c78f-6116-4a16-9027-1820221ef1f5.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_d6a4cc01-dea7-4087-a349-0caf418c2e57.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_cc98d853-5323-4842-8bad-b48e9a15781a.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_7e39c3a3-880c-4f1a-8105-9a5c5f1ef714.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_57aaf70b-3be6-4dfe-8829-e69f2f2176cb.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_fee197f7-fe3a-4c7d-af4e-c17dc01234bd.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_c9086233-3cd8-4c90-bea3-139f0a325af7.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_1a9cfe3b-4187-48bb-80b2-4c5d9e684db8.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_f6664672-13ef-4071-9d1a-21a981be0845.jpg/250x188.webp",
+      "https://prod.pictures.autoscout24.net/listing-images/5a83fd2b-42b6-414a-b5e9-4851b77e6316_5aecb156-f19c-4c51-b3ac-25a7194f4c2e.jpg/250x188.webp"
+    ],
+    "link_autoscout": "https://www.autoscout24.it/annunci/toyota-rav-4-rav4-5p-2-0-d-4d-16v-sol-4x4-diesel-argento-5a83fd2b-42b6-414a-b5e9-4851b77e6316",
+    "specifiche_extra": {
+      "cambio": "Manuale",
+      "colore_esterno": "SUV/Fuoristrada/Pick-up",
+      "interni": "Tessuto",
+      "porte": "5",
+      "classe_emissioni": "Euro 6",
+      "proprietari": "2 proprietari",
       "trazione": "Anteriore"
     }
   },

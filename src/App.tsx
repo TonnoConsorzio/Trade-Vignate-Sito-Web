@@ -11,7 +11,9 @@ import {
   Star,
   ChevronRight,
   DollarSign,
-  Mail
+  Mail,
+  Menu,
+  X
 } from 'lucide-react';
 import Catalogo from './components/Catalogo';
 import Topbar from './components/Topbar';
@@ -21,6 +23,7 @@ import DettaglioAuto from './components/DettaglioAuto';
 
 function AppContent() {
   const [isOpen, setIsOpen] = useState(true);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [orarioAttuale, setOrarioAttuale] = useState('');
   const location = useLocation();
   const currentPath = location.pathname;
@@ -88,8 +91,8 @@ function AppContent() {
             <img src={`${import.meta.env.BASE_URL}Trade_Vignate_Logo.png`} alt="Trade Vignate Logo" className="h-12 sm:h-16 md:h-20 w-auto object-contain" />
           </Link>
 
-          {/* Menu di Navigazione Material Design - Centrato */}
-          <nav className="flex items-center gap-1 bg-slate-100/90 p-1 rounded-xl border border-slate-200/40">
+          {/* Menu di Navigazione Material Design - Nascosto su Mobile, visibile su lg */}
+          <nav className="hidden lg:flex items-center gap-1 bg-slate-100/90 p-1 rounded-xl border border-slate-200/40">
             <Link
               to="/"
               className={`py-1.5 px-3 md:px-4 rounded-lg text-xs font-bold tracking-tight transition-all duration-150 cursor-pointer ${
@@ -123,14 +126,14 @@ function AppContent() {
           </nav>
 
           {/* CTA Azione Rapida Header */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 md:gap-3">
             <a
               id="header-tap-to-call"
               href="tel:+393922841305"
               aria-label="Chiama ora Trade Vignate"
-              className="py-2 px-3.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-sans font-semibold text-xs rounded-xl flex items-center gap-1.5 transition-all active:scale-95 animate-pulse"
+              className="py-2 px-2.5 sm:px-3.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-sans font-semibold text-xs rounded-xl flex items-center gap-1.5 transition-all active:scale-95"
             >
-              <Phone className="w-3.5 h-3.5 text-amber-500 animate-bounce" />
+              <Phone className="w-4 h-4 sm:w-3.5 sm:h-3.5 text-amber-500 sm:animate-bounce" />
               <span className="hidden sm:inline">Chiamaci ora</span>
             </a>
             
@@ -138,15 +141,61 @@ function AppContent() {
               id="header-contact-anchor"
               href="mailto:tradevignate@libero.it"
               aria-label="Invia un'email a Trade Vignate"
-              className="py-2 px-4 bg-slate-900 hover:bg-amber-500 text-white hover:text-slate-950 font-sans font-semibold text-xs rounded-xl flex items-center gap-1.5 transition-all shadow-md active:scale-95"
+              className="py-2 px-2.5 sm:px-4 bg-slate-900 hover:bg-amber-500 text-white hover:text-slate-950 font-sans font-semibold text-xs rounded-xl flex items-center gap-1.5 transition-all shadow-md active:scale-95"
             >
-              <span className="hidden md:inline">Invia un'Email</span>
-              <span className="md:hidden">Email</span>
-              <Mail className="w-3.5 h-3.5" />
+              <span className="hidden leading-none sm:inline">Invia un'Email</span>
+              <Mail className="w-4 h-4 sm:hidden" />
             </a>
-          </div>
 
+            {/* Menu Hamburger Mobile */}
+            <button
+              className="lg:hidden p-2 text-slate-700 hover:bg-slate-100 rounded-lg transition-colors"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Apri menu"
+            >
+              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
+
+        {/* Mobile Menu Dropdown */}
+        {mobileMenuOpen && (
+          <div className="lg:hidden absolute top-full left-4 right-4 mt-2 bg-white rounded-2xl shadow-xl border border-slate-100 p-4 flex flex-col gap-2">
+            <Link
+              to="/"
+              onClick={() => setMobileMenuOpen(false)}
+              className={`py-3 px-4 rounded-xl text-sm font-bold tracking-tight transition-all duration-150 cursor-pointer ${
+                currentPath === '/'
+                  ? 'bg-amber-500/10 text-amber-700'
+                  : 'text-slate-600 hover:bg-slate-50'
+              }`}
+            >
+              Home
+            </Link>
+            <Link
+              to="/catalogo"
+              onClick={() => setMobileMenuOpen(false)}
+              className={`py-3 px-4 rounded-xl text-sm font-bold tracking-tight transition-all duration-150 cursor-pointer ${
+                currentPath === '/catalogo' || currentPath.startsWith('/auto')
+                  ? 'bg-amber-500/10 text-amber-700'
+                  : 'text-slate-600 hover:bg-slate-50'
+              }`}
+            >
+              Vetrina Auto
+            </Link>
+            <Link
+              to="/chi-siamo"
+              onClick={() => setMobileMenuOpen(false)}
+              className={`py-3 px-4 rounded-xl text-sm font-bold tracking-tight transition-all duration-150 cursor-pointer ${
+                currentPath === '/chi-siamo'
+                  ? 'bg-amber-500/10 text-amber-700'
+                  : 'text-slate-600 hover:bg-slate-50'
+              }`}
+            >
+              Chi Siamo
+            </Link>
+          </div>
+        )}
       </header>
 
       {/* 2. MAIN CONTENT AREA */}
@@ -159,11 +208,7 @@ function AppContent() {
               {/* Value Proposition / Transparency Pillars & Timeline */}
               <section id="value-proposition" className="bg-white border border-slate-100 rounded-3xl p-8 md:p-12 shadow-sm space-y-10">
                 <div className="text-center max-w-xl mx-auto space-y-2">
-                  <span className="text-amber-500 font-mono font-bold text-xs uppercase tracking-widest block font-bold">Condizioni Di Consegna</span>
                   <h2 className="text-2xl md:text-3xl font-bold font-display text-slate-900 tracking-tight">Perché scegliere Trade Vignate</h2>
-                  <p className="text-xs text-slate-400 leading-relaxed font-sans">
-                    Forniamo vetture d'occasione selezionate. Ogni nostra auto viene preparata in modo chiaro e trasparente per evitarti sorprese.
-                  </p>
                 </div>
  
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -240,7 +285,6 @@ function AppContent() {
             <div id="showroom-section" className="py-2 space-y-6">
               <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1">
                 <div>
-                  <span className="text-[10px] font-mono tracking-widest uppercase text-slate-400 font-bold block">Vetrina Digitale</span>
                   <h2 className="text-2xl md:text-3xl font-bold font-display text-slate-900 tracking-tight">Le Nostre Occasioni</h2>
                 </div>
                 <p className="text-xs text-slate-400">Prezzi trasparenti e reali, aggiornati quotidianamente.</p>

@@ -134,11 +134,8 @@ export default function DettaglioAuto() {
           </span>
         </div>
         <h1 className="text-2.5xl md:text-3.5xl font-black font-display text-slate-900 tracking-tight leading-none">
-          {veicolo.nome}
+          {veicolo.nome.replace(new RegExp(`^${marca}\\s+`, 'i'), '')}
         </h1>
-        <p className="text-xs text-slate-400 font-sans leading-relaxed">
-          L'auto viene consegnata funzionante e, se possibile, rimessa a nuovo. La diagnosi elettronica ed i test su strada sono inclusi nel prezzo.
-        </p>
       </div>
 
       {/* 3. CONTENUTO PRINCIPALE A DUE COLONNE */}
@@ -252,7 +249,6 @@ export default function DettaglioAuto() {
                 </span>
                 <span className="text-xs text-amber-800 font-semibold">(Passaggio Escluso)</span>
               </div>
-              <span className="block text-[10px] text-amber-700 font-sans mt-1">✓ Prezzo chiaro ed onesto, senza vincoli di finanziamento</span>
             </div>
 
             {/* Griglia KPI Tecnici */}

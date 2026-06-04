@@ -229,7 +229,7 @@ export default function DettaglioAuto() {
               <div className="flex items-start gap-2 text-xs">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
                 <p className="text-slate-600 leading-relaxed">
-                  <strong>Lavaggio Interno:</strong> Il lavaggio e la sanificazione interni non sono inclusi.
+                  <strong>Trasparenza Totale:</strong> Nessuna spesa nascosta, passaggio di proprietà escluso.
                 </p>
               </div>
             </div>
@@ -400,7 +400,7 @@ export default function DettaglioAuto() {
             </div>
 
             <div className="pt-4 border-t border-white/10 flex items-center justify-between text-[10px] font-mono text-slate-400">
-              <span>Sede: Chiusi (Ora locale: 22:19)</span>
+              <span>Si riceve su appuntamento</span>
               <span>In risposta rapida</span>
             </div>
 

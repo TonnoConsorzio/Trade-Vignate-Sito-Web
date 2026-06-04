@@ -94,9 +94,9 @@ export default function ChiSiamo() {
                 </div>
               </li>
               <li className="flex items-start gap-2.5 text-xs text-slate-600 font-sans">
-                <CheckCircle2 className="w-4 h-4 text-amber-600 mt-0.5 flex-shrink-0" />
+                <CheckCircle2 className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
                 <div>
-                  <strong>Pulizia ed Igienizzazione interni:</strong> Il lavaggio e l'igienizzazione approfonditi interni non sono inclusi nel prezzo dell'auto e rimangono a carico del cliente interessato.
+                  <strong>Massima Trasparenza:</strong> Nessuna sorpresa e passaggi di proprietà rapidi tramite le nostre agenzie partner.
                 </div>
               </li>
             </ul>

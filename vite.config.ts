@@ -4,8 +4,12 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  // Rileva se stiamo compilando su GitHub Actions per impostare il prefisso corretto.
+  // Nessuna API Key viene esposta, serve solo per il routing di GitHub Pages.
+  const isGitHub = typeof process !== 'undefined' && process.env && process.env.GITHUB_ACTIONS;
+  
   return {
-    base: '/',
+    base: isGitHub ? '/Trade-Vignate-Sito-Web/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

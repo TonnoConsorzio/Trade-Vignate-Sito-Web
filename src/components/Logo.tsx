@@ -11,7 +11,7 @@ export default function Logo({ showText = true, className = '', iconOnly = false
   return (
     <div className={`flex items-center ${className}`}>
       <img 
-        src="/Trade_Vignate_Logo.png" 
+        src={`${import.meta.env.BASE_URL}Trade_Vignate_Logo.png`} 
         alt="Trade Vignate Logo" 
         style={{ height: height }}
         className="w-auto object-contain" 

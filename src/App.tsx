@@ -88,7 +88,7 @@ function AppContent() {
           
           {/* Logo Brand */}
           <Link to="/" className="flex items-center">
-            <img src="/Trade_Vignate_Logo.png" alt="Trade Vignate Logo" className="h-12 sm:h-16 md:h-20 w-auto object-contain" />
+            <img src={`${import.meta.env.BASE_URL}Trade_Vignate_Logo.png`} alt="Trade Vignate Logo" className="h-12 sm:h-16 md:h-20 w-auto object-contain" />
           </Link>
 
           {/* Menu di Navigazione Material Design - Nascosto su Mobile, visibile su lg */}
@@ -312,7 +312,7 @@ function AppContent() {
                    {/* Informazioni legali reali */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <img src="/Trade_Vignate_Logo.png" alt="Trade Vignate Logo" className="h-10 sm:h-12 md:h-16 w-auto object-contain brightness-0 invert" />
+              <img src={`${import.meta.env.BASE_URL}Trade_Vignate_Logo.png`} alt="Trade Vignate Logo" className="h-10 sm:h-12 md:h-16 w-auto object-contain brightness-0 invert" />
             </div>
             <p className="text-[11px] text-slate-500 leading-relaxed font-mono">
               Trade Vignate di Marco Massarotti<br />
@@ -381,7 +381,7 @@ function AppContent() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <AppContent />
     </BrowserRouter>
   );
